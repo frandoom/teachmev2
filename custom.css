@@ -1,18 +1,29 @@
-body {}
+html {
 
-h1 {}
-
-.navbar {
-    min-height: 50px;
-    background-color: #FF3CAC;
-    background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
 }
 
-.navmargin {
-    margin-top: 5rem;
+body {
+    background-color: #ffffff;
+    background-image: linear-gradient(299deg, #ffffff 0%, #cffffd 100%);
 }
 
-.h2w1 {
+header {
+    background-color: #b32b7a;
+    background-image: linear-gradient(225deg, #b32b7a 0%, #784BA0 50%, #2B86C5 100%);
+    min-height: 52px;
     display: flex;
+    justify-content: space-between;
     align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.logo {
+    padding: 10px 28px;
+}
+
+.redes {
+    display: inline-block;
+    position: relative;
+    padding-right: 24px;
 }
