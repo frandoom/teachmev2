@@ -6,3 +6,15 @@ h1 {
 
 }
 
+.navbar {
+    min-height: 100px;
+    background-color: #c12e82;
+    background-image: linear-gradient(225deg, #c12e82 0%, #784BA0 50%, #2B86C5 100%);;
+    margin-bottom: 3rem;
+}
+
+.forbidden {
+    width: 32;
+    height: 32;
+    padding-left: 12px;
+}
