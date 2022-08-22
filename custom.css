@@ -1,20 +1,18 @@
-body {
+body {}
 
-}
-
-h1 {
-
-}
+h1 {}
 
 .navbar {
-    min-height: 100px;
-    background-color: #c12e82;
-    background-image: linear-gradient(225deg, #c12e82 0%, #784BA0 50%, #2B86C5 100%);;
-    margin-bottom: 3rem;
+    min-height: 50px;
+    background-color: #FF3CAC;
+    background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
 }
 
-.forbidden {
-    width: 32;
-    height: 32;
-    padding-left: 12px;
+.navmargin {
+    margin-top: 5rem;
+}
+
+.h2w1 {
+    display: flex;
+    align-items: center;
 }
