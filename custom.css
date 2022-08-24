@@ -26,3 +26,7 @@ header {
     position: relative;
     padding-right: 24px;
 }
+
+.bi {
+    color: pink;
+}
