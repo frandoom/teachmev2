@@ -1,6 +1,4 @@
-html {
-
-}
+html {}
 
 body {
     background-color: whitesmoke;
@@ -37,8 +35,18 @@ header {
 }
 
 .center {
-  margin: auto;
-  width: 50%;
-  border: 0px;
-  padding: 0px;
+    margin: auto;
+    width: 100%;
+    border: 0px;
+    padding: 0px;
+}
+
+@media (min-width: 768px) {
+    .center {
+        margin: auto;
+        width: 50%;
+        border: 0px;
+        padding: 0px;
+    }
+
 }
