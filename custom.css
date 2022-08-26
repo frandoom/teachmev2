@@ -30,3 +30,14 @@ header {
 .bi {
     color: pink;
 }
+
+.f-body {
+    display: block;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  border: 0px;
+  padding: 0px;
+}
