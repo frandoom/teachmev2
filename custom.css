@@ -34,13 +34,6 @@ header {
     margin-top: 32px;
 }
 
-.center {
-    margin: auto;
-    width: 100%;
-    border: 0px;
-    padding: 0px;
-}
-
 @media (min-width: 768px) {
     .center {
         margin: auto;
@@ -49,4 +42,13 @@ header {
         padding: 0px;
     }
 
+}
+
+@media (min-width: 576px) {
+    .center {
+        margin: auto;
+        width: 100%;
+        border: 0px;
+        padding: 0px;
+    }
 }
